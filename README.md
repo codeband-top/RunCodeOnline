@@ -49,7 +49,7 @@ https://run.codetool.top/?id=34
 
 运行该项目建议持有两台服务器，一台用于运行Netty服务和数据库，一台用于提供Docker服务。（放到同一台上也可以）
 
-下载`release.zip`（尚未上传），解压：
+在[下载页面](https://github.com/codeband-top/RunCodeOnline/releases)下载`release*.zip`，解压到本地。
 
 ## 建立数据库
 
