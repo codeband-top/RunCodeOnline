@@ -49,7 +49,7 @@ https://run.codetool.top/?id=34
 
 运行该项目建议持有两台服务器，一台用于运行Netty服务和数据库，一台用于提供Docker服务。（放到同一台上也可以）
 
-下载`release.zip`（尚未上传），解压：
+在[下载页面](https://github.com/codeband-top/RunCodeOnline/releases)下载`release*.zip`，解压到本地。
 
 ## 建立数据库
 
@@ -160,6 +160,8 @@ location /runcode {
 
 ## Websocket服务
 
+### Websocket路径：`/runcode`
+
 客户端发送的数据格式：
 
 ```json
@@ -236,3 +238,10 @@ location /runcode {
 
 ![](https://api.codetool.top/img/15919296312266.png)
 
+## 待完善列表
+
+- [ ] 有谁能帮我做个好看点的前端吗请迅速联系我(๑•̀ㅂ•́)و✧ 现在的前端太拉跨了
+- [ ] 编程语言相关信息的枚举可以通过读取配置文件的形式完成，更方便拓展
+- [ ] 前端控制器和`TextWebsocketFrameHandler`中路由分发部分代码耦合度较高，可以改进
+- [ ] 可以加入更多和数据库有关的功能，例如更新代码、加入用户功能等，不过用Netty写HTTP服务会比较挑战，要求具备较高的底层手写能力
+- [ ] ... 
