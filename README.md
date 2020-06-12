@@ -154,7 +154,7 @@ location /runcode {
 }
 ```
 
-尝试访问你搭建的HTTP服务（例如：http://localhost:7001/），若有输出，说明HTTP服务运行成功。否则可以通过`docker logs runcode`查看程序日志输出。
+尝试访问你搭建的HTTP服务（例如：http://localhost:7001/ ），若有输出，说明HTTP服务运行成功。否则可以通过`docker logs runcode`查看程序日志输出。
 
 # API使用说明
 
@@ -234,5 +234,5 @@ location /runcode {
 
 ## 后端项目结构
 
-![](https://api.codetool.top/img/15918849559073.png)
+![](https://api.codetool.top/img/15919296312266.png)
 
