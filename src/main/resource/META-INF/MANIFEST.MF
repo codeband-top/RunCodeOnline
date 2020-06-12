@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Main-Class: com.runcode.ServerBootStrap
+Class-Path: netty-codec-socks-4.1.46.Final.jar httpclient-4.5.12.jar gua
+ va-19.0.jar jakarta.ws.rs-api-2.1.6.jar docker-java-core-3.2.1.jar hk2-
+ api-2.6.1.jar netty-codec-4.1.46.Final.jar jersey-apache-connector-2.30
+ .1.jar aopalliance-repackaged-2.6.1.jar netty-common-4.1.46.Final.jar n
+ etty-transport-4.1.46.Final.jar netty-handler-proxy-4.1.46.Final.jar lo
+ gback-core-1.2.3.jar jakarta.activation-1.2.1.jar jackson-core-2.10.3.j
+ ar commons-compress-1.20.jar jackson-databind-2.10.3.jar netty-transpor
+ t-native-unix-common-4.1.46.Final.jar netty-transport-native-kqueue-4.1
+ .46.Final-osx-x86_64.jar osgi-resource-locator-1.0.3.jar jakarta.xml.bi
+ nd-api-2.3.2.jar javassist-3.25.0-GA.jar docker-java-transport-jersey-3
+ .2.1.jar bcprov-jdk15on-1.64.jar netty-transport-native-epoll-4.1.46.Fi
+ nal-linux-x86_64.jar lombok-1.18.12.jar junixsocket-native-common-2.3.2
+ .jar bcpkix-jdk15on-1.64.jar netty-handler-4.1.46.Final.jar jackson-mod
+ ule-jaxb-annotations-2.10.3.jar junit-4.13.jar hk2-utils-2.6.1.jar comm
+ ons-lang-2.6.jar commons-io-2.6.jar jackson-jaxrs-base-2.10.3.jar jacks
+ on-jaxrs-json-provider-2.10.3.jar httpcore-4.4.13.jar hamcrest-core-1.3
+ .jar mysql-connector-java-8.0.19.jar docker-java-transport-netty-3.2.1.
+ jar hutool-all-5.1.0.jar slf4j-api-1.7.30.jar junixsocket-common-2.3.2.
+ jar jackson-annotations-2.10.3.jar jersey-common-2.30.1.jar netty-resol
+ ver-4.1.46.Final.jar mybatis-3.5.4.jar hk2-locator-2.6.1.jar netty-code
+ c-http-4.1.46.Final.jar jakarta.inject-2.6.1.jar jersey-client-2.30.1.j
+ ar netty-buffer-4.1.46.Final.jar docker-java-api-3.2.1.jar logback-clas
+ sic-1.2.3.jar jersey-hk2-2.30.1.jar protobuf-java-3.6.1.jar jakarta.ann
+ otation-api-1.3.5.jar netty-all-4.1.50.Final.jar commons-codec-1.11.jar
+  jakarta.activation-api-1.2.1.jar docker-java-3.2.1.jar jcl-over-slf4j-
+ 1.7.30.jar
+

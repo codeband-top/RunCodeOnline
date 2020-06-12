@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.runcode.mapper.CodeSegmentMapper">
+    <resultMap id="codeSegment" type="com.runcode.entities.CodeSegmentPO">
+        <!--主键字段的对应-->
+        <id property="id" column="id"/>
+        <result property="codeContent" column="code_content"/>
+        <result property="codeType" column="code_type"/>
+        <result property="gmtCreate" column="gmt_create"/>
+    </resultMap>
+
+    <!-- 根据id查询 -->
+    <select id="getById" resultMap="codeSegment">
+        select * from code_segment where id = #{id}
+    </select>
+
+    <insert id="save" parameterType="com.runcode.entities.CodeSegmentPO" useGeneratedKeys="true" keyProperty="id">
+        insert into code_segment(code_content,code_type) values
+        (#{codeContent},#{codeType})
+    </insert>
+</mapper>
